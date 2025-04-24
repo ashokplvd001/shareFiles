@@ -1,0 +1,48 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int prime( int );
+int main() {
+    // Write C++ code here
+   int num  ;
+   cout<<"Enter the number : " ;
+   cin>>num; 
+  
+   int a , b , count = 0, sum; 
+   
+   for( int i = 2 ; i < num ; i++ )
+   {
+      
+       for( int j = i ; j < num ; j++)
+       {
+         
+           a = prime( i ) ;
+           b = prime( j );
+           if( a && b  )
+           {
+             //  cout<<"a "<<a<<"  b "<<b<<endl ;
+               //cout<<" i "<<i<<" j "<<j<<endl;
+               sum = i + j ;
+             //  cout<<"sum : "<<sum<<endl; ;
+               if( num == sum )
+               {
+                   cout<<i<<" + "<<j<<" = "<<i+j<<endl ;
+                   count++ ;
+               }
+           }
+       }
+   }
+   cout<<"possiblility = "<<count<<endl ; 
+  
+    return 0;
+}
+
+int prime( int num )
+{
+    for( int i = 2 ; i <= num / 2 ; i++)
+    {
+        if( num % i == 0 )
+        return 0 ; 
+    }
+    return 1 ;
+}
