@@ -17,6 +17,7 @@ typedef struct _student
 	string stdtName ;
 	int stdtCorrectAns;
 	int stdtMarks; 
+	float stdPercentage;
 }STDT;
 
 
