@@ -1,0 +1,20 @@
+Q)what comes after B ?
+A)a
+B)c
+c)D
+D)B
+R)B
+Q)what comes after F ?
+A)G
+B)J
+C)L
+D)Y
+R)A
+Q)what comes after M ?
+A)Q
+B)T
+C)H
+D)N
+R)D
+
+
