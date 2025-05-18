@@ -137,6 +137,7 @@ bool inputValidation(char& input , int &  index , int questionsCount , char  & r
 		{
 		default :
 			printFlag = false;
+			break;
 		case 'A' :
 		case 'B' :
 		case 'C' :
